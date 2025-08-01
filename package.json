@@ -1,7 +1,7 @@
 {
   "name": "nextjs-scf-layer",
   "scripts": {
-    "build": "zip -r layer.zip ./node_modules/ && ls -al ./"
+    "build": "zip -r layer.zip ./node_modules/ && ls -al ./ && mv layer.zip ./dist"
   },
   "dependencies": {
     "next": "15.4.5",
