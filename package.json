@@ -2,7 +2,7 @@
   "name": "nextjs-scf-layer",
   "scripts": {
     "build": "",
-    "build-zip": "mkdir ./edgeone/assets && zip -rq layer.zip ./node_modules/ && ls -al ./ && mv layer.zip ./edgeone/assets"
+    "build-zip": "mkdir -p ./edgeone/assets && zip -rq layer.zip ./node_modules/ && ls -al ./ && mv layer.zip ./edgeone/assets"
   },
   "dependencies": {
     "next": "15.4.5",
